@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #25c481, #77027f);
+  background: linear-gradient(to right, #25c481, #77027f);
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  font-size: 70px;
+  font-weight: 600;
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  text-align: left;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+}
+
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+
+.disabled td {
+  color: #4F5F64;
+}
+
+tbody tr {
+  transition: background 0.25s ease;
+}
+
+tbody tr {
+  background: #90daf2;
+}
